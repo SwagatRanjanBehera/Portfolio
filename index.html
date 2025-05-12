@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swagat Ranjan Behera | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #e3f2fd, #ffffff);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222831;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background: #00adb5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #222831;
+            border-left: 5px solid #00adb5;
+            padding-left: 10px;
+        }
+
+        .project,
+        .certificate {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .project:hover,
+        .certificate:hover {
+            transform: translateY(-5px);
+        }
+
+        .project h3,
+        .certificate p {
+            font-size: 1.25rem;
+            color: #0077b6;
+        }
+
+        .project a,
+        .certificate a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #00adb5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .project a:hover,
+        .certificate a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #2c3e50;
+            color: white;
+        }
+
+        .socials a {
+            margin: 0 12px;
+            color: #00adb5;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .socials a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Swagat Ranjan Behera</h1>
+        <p>Aspiring Data Scientist | Python | SQL | Machine Learning</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a third-year B.Tech Computer Science student at ITER College, Bhubaneswar. My interest lies in Data
+                Science and I enjoy working on data analysis, statistical modeling, and machine learning projects. I am
+                skilled in Python, SQL, and data visualization using tools like Matplotlib and Seaborn.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Titanic Survival Prediction</h3>
+                <p>Built a machine learning model to predict survival outcomes using logistic regression and data
+                    preprocessing. Tools used: Jupyter Notebook, Scikit-learn, Seaborn.</p>
+                <a href="https://github.com/SwagatRanjanBehera/-CODSOFT/tree/main/CodSoft/Task1%20TITANIC%20DATASET"
+                    target="_blank">GitHub Repo</a>
+            </div>
+            <div class="project">
+                <h3>Sales Prediction</h3>
+                <p>Forecasted future sales using regression models and analyzed historical trends for business insights.
+                    Tools used: Pandas, Scikit-learn, Statsmodels.</p>
+                <a href="https://github.com/SwagatRanjanBehera/-CODSOFT/tree/main/CodSoft/Task%203%20SALES%20PREDICTION"
+                    target="_blank">GitHub Repo</a>
+            </div>
+            <div class="project">
+                <h3>Hackathon: Disease Outbreak Prediction</h3>
+                <p>Developed a dengue and malaria outbreak model using machine learning at IIIT Hyderabad's Felicity 25
+                    Hackathon.</p>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="certificate">
+                <p><strong>Python - Basic</strong> (HackerRank)</p>
+                <a href="https://www.hackerrank.com/certificates/51dd0a5ef6a8" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <p><strong>SQL - Intermediate</strong> (HackerRank)</p>
+                <a href="https://www.hackerrank.com/certificates/fe1713eaad3b" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <p><strong>Data Analytics & Visualization</strong> (Forage)</p>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_RcfBqDWJ8pSLdNSvP_1719385948075_completion_certificate.pdf"
+                    target="_blank">View Certificate</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:swagatranjanbehera4@gmail.com">swagatranjanbehera4@gmail.com</a></p>
+            <p>Phone: +91 8249036622</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/swagat-ranjan-behera-22717a25a/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/SwagatRanjanBehera" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Swagat Ranjan Behera. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
